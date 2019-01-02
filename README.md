@@ -1,7 +1,7 @@
 # MercatoxFetchingBOT
 With this bot you can easily obtain all trade history data and order book from www.mercatox.com.
 
-Just download the scripts and install the dependencies with npm install and simply use it:
+Just download the scripts and install the dependencies with npm install and simply use it after you've configured the .env file.
 
 ```
 node tradehistory.js
