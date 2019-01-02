@@ -3,6 +3,11 @@ With this bot you can easily obtain all trade history data and order book from w
 
 Just download the scripts and install the dependencies with npm install and simply use it after you've configured the .env file.
 
+See the results after inserting the values in a database:
+https://stats.kalkul.us/mercatox/orderbook
+https://stats.kalkul.us/mercatox/tradehistory
+
+Use the scripts as follow in your local machine:
 ```
 node tradehistory.js
 node buyorders.js
@@ -15,8 +20,7 @@ If you need to use it in a web server with Ubuntu you need to install these depe
 sudo apt-get install -y xvfb x11-xkb-utils xfonts-100dpi xfonts-75dpi xfonts-scalable xfonts-cyrillic x11-apps clang libdbus-1-dev libgtk2.0-dev libnotify-dev libgnome-keyring-dev libgconf2-dev libasound2-dev libcap-dev libcups2-dev libxtst-dev libxss1 libnss3-dev gcc-multilib g++-multilib
 ```
 
-And then use it as follows
-
+And then use it as follows (you can even install crontab!):
 ```
 xvfb-run node tradehistory.js
 xvfb-run node buyorders.js
