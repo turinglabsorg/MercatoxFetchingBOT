@@ -6,6 +6,7 @@ Just download the scripts and install the dependencies with npm install and simp
 See the results after inserting the values in a database:
 
 https://stats.kalkul.us/mercatox/orderbook
+
 https://stats.kalkul.us/mercatox/tradehistory
 
 Use the scripts as follow in your local machine:
