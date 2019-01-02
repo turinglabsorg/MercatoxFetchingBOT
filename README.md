@@ -4,6 +4,7 @@ With this bot you can easily obtain all trade history data and order book from w
 Just download the scripts and install the dependencies with npm install and simply use it after you've configured the .env file.
 
 See the results after inserting the values in a database:
+
 https://stats.kalkul.us/mercatox/orderbook
 https://stats.kalkul.us/mercatox/tradehistory
 
